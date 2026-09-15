@@ -1,0 +1,45 @@
+export const birthdayConfig = {
+  birthdayName: "Kriti",
+  nickname: "Alex",
+  musicFile: "/audio/birthday-dream.mp3",
+  memories: [
+    "You make ordinary days feel special. Special as yuhh 💗",
+    "Teri Bakwaas baton pr hasne ki aadat😂.",
+    "May life surprise you with beautiful things. ✨",
+    "Never forget how loved you are.",
+    "My favourite Unpaid therapist. 😎",
+    "You make room complete without even saying anything , Gungi kahiki 😂.",
+    "You deserve all the soft, beautiful moments.",
+    "Your smile has always felt a little like sunshine.My cutiee Pie.🥰",
+    "My favourite personal Human Diary..😇❤️",
+  ],
+  dreams: ["Dreams", "Adventure", "Success", "Peace", "Courage", "Offline meet"],
+  dreamMessages: [
+    "Keep aiming higher.",
+    "Your dreams deserve a brave shot.",
+    "Small steps still count.",
+    "Don't shrink your dreams.",
+    "Future Alex is cheering for you.",
+    "Kb chale fir madam..?😊",
+  ],
+ wishes: [
+  "Movie Night 🎬🍿",
+  "Ice Cream Treat 🍦",
+  "Long Drive ✨🚗",
+  "Food Date 🍕",
+  "Shopping Spree 🛍️",
+  "A Surprise Day 🎁",
+  "Mini Adventure 🌍",
+  "Your Wish, My Treat 👑",
+],
+  sweetMessages: [
+    "One more happy moment. 🍦",
+    "Collect the good stuff.",
+    "Ice Cream Pgluuu😘",
+    "Save room for joy.",
+  ],
+  finalMessage: "Abb promise me ki tu aise hi hamesha haste rahegi , Smile kaafi cute hai teri..🥰",
+  photos: [] as string[],
+} as const;
+
+export type BirthdayConfig = typeof birthdayConfig;
